@@ -1,0 +1,62 @@
+.isLeft {
+    left:0;
+}
+
+.isRight {
+    right:800px;
+}
+
+.isLeft1 {
+    left:520px;
+}
+
+.movable-object {
+   
+    
+    position: relative;
+    transition: left 0.3s, right 0.3s; /* Animasyon için geçiş efekti ekleme */
+  }
+  
+  /* Sola kaydırma */
+  .move-left {
+    left: 10px;
+     /* Sağa kaydırma sıfırlama */
+  }
+  
+  /* Sağa kaydırma */
+  .move-right {
+    right: 10px;
+     /* Sola kaydırma sıfırlama */
+  }
+
+ 
+  
+  .move-container {
+    width: 83%;
+    overflow-x:hidden;
+   
+  }
+  
+  .movable-object {
+    width: 335%;
+    height: 100px;
+    background-color: rgba(211, 211, 211, 0);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: left 0.3s, right 0.3s;
+  }
+
+  .move-container img{
+   
+display: flex;
+    width: 4.37%;
+    margin: 0 10px;
+  }
+
+  
+
+
+
+  
+  
